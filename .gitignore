@@ -1,0 +1,39 @@
+# Python virtual environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Notebook and application-generated files
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+
+# Build and distribution output
+build/
+dist/
+*.egg-info/
+
+# Oversized experimental artifacts; the deployed app uses the smaller final models
+models/classification/random_forest.pkl
+models/regression/random_forest_regressor.pkl
+data/processed/emi_prediction_dataset_featured.csv
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

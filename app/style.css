@@ -1,0 +1,142 @@
+/* ==========================================
+   EMI PREDICT-AI
+   CUSTOM UI STYLES
+   ========================================== */
+
+.main {
+    padding-top: 1.5rem;
+}
+
+/* ---------- Header ---------- */
+
+.hero {
+    padding: 2rem 2.2rem;
+    border-radius: 20px;
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    background: linear-gradient(
+        135deg,
+        rgba(30, 100, 220, 0.12),
+        rgba(120, 70, 220, 0.08)
+    );
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 0.3rem;
+}
+
+.hero-subtitle {
+    font-size: 1.05rem;
+    opacity: 0.75;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.35rem 0.8rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border: 1px solid rgba(128, 128, 128, 0.25);
+}
+
+/* ---------- Section Titles ---------- */
+
+.section-title {
+    font-size: 1.35rem;
+    font-weight: 750;
+    margin-top: 1.2rem;
+    margin-bottom: 0.8rem;
+}
+
+.section-description {
+    opacity: 0.65;
+    margin-bottom: 1rem;
+}
+
+/* ---------- Cards ---------- */
+
+.info-card {
+    padding: 1.2rem;
+    border-radius: 16px;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    margin-bottom: 1rem;
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+}
+
+.card-value {
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+/* ---------- Result ---------- */
+
+.result-card {
+    padding: 1.5rem;
+    border-radius: 20px;
+    margin: 1rem 0;
+    border: 1px solid rgba(128, 128, 128, 0.25);
+}
+
+.result-label {
+    font-size: 0.85rem;
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.result-value {
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-top: 0.3rem;
+}
+
+/* ---------- Affordability ---------- */
+
+.affordability-box {
+    padding: 1.3rem;
+    border-radius: 16px;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    margin-top: 1rem;
+}
+
+.progress-container {
+    width: 100%;
+    height: 14px;
+    border-radius: 999px;
+    overflow: hidden;
+    margin-top: 0.8rem;
+    background: rgba(128, 128, 128, 0.15);
+}
+
+.progress-bar {
+    height: 100%;
+    border-radius: 999px;
+}
+
+/* ---------- Footer ---------- */
+
+.footer {
+    text-align: center;
+    opacity: 0.55;
+    padding: 2rem 0 1rem 0;
+    font-size: 0.85rem;
+}
+
+/* ---------- Sidebar ---------- */
+
+.sidebar-title {
+    font-size: 1.25rem;
+    font-weight: 750;
+}
+
+.small-text {
+    font-size: 0.85rem;
+    opacity: 0.65;
+}
